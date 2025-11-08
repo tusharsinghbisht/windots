@@ -1,0 +1,157 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{d95dc931-1ace-5cec-9771-c070b07685ba}",
+    "disableAnimations": true,
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "language": "en-US",
+    "launchMode": "focus",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {
+                "colorScheme": "One Half Dark",
+                "font": 
+                {
+                    "face": "JetBrainsMono Nerd Font"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+                "elevate": false,
+                "font": 
+                {
+                    "face": "JetBrainsMono Nerd Font"
+                },
+                "guid": "{b3ffefbb-bbef-45f6-beae-998e8f4604a3}",
+                "hidden": false,
+                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Git Bash",
+                "tabTitle": "Git Bash"
+            },
+            {
+                "background": null,
+                "backgroundImageOpacity": 0.11,
+                "backgroundImageStretchMode": "fill",
+                "colorScheme": "One Half Dark",
+                "cursorHeight": 20,
+                "cursorShape": "vintage",
+                "font": 
+                {
+                    "face": "JetBrainsMono Nerd Font"
+                },
+                "guid": "{d95dc931-1ace-5cec-9771-c070b07685ba}",
+                "hidden": false,
+                "name": "kali-linux",
+                "opacity": 100,
+                "padding": "11",
+                "rightClickContextMenu": false,
+                "scrollbarState": "hidden",
+                "source": "Microsoft.WSL",
+                "useAcrylic": false
+            },
+            {
+                "backgroundImage": "D:\\Downloads\\desktop_background_in_4k_it_s_fusu__meiniang_by_trutkach_diqke1p.png",
+                "backgroundImageOpacity": 0.1,
+                "backgroundImageStretchMode": "uniformToFill",
+                "colorScheme": "Dark+",
+                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+                "hidden": false,
+                "name": "Arch",
+                "opacity": 89,
+                "padding": "10",
+                "source": "Windows.Terminal.Wsl",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{2db12b7f-61b3-595c-9e2b-b52d6b1e99c3}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{8a43f318-7af9-59c2-b288-9792fc56752f}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": [],
+    "showTabsFullscreen": false,
+    "showTabsInTitlebar": true,
+    "themes": [],
+    "useAcrylicInTabRow": true
+}

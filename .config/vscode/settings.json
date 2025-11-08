@@ -1,0 +1,178 @@
+{
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 0.6,
+    "workbench.iconTheme": "catppuccin-macchiato",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "editor.fontVariations": false,
+    "editor.fontWeight": "500",
+    "code-runner.executorMap": {
+
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.lineNumbers": "on",
+    "breadcrumbs.filePath": "on",
+    "json.schemas": [
+
+    ],
+    "editor.guides.indentation": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "code-runner.runInTerminal": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.activityBar.location": "top",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.associations": {
+        "*.py": "python"
+    },
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "kali-linux (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "kali-linux"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "editor.renderWhitespace": "all",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "cpp": false,
+        "python": true,
+        "typescript": true,
+        "typescriptreact": true,
+        "go": false
+    },
+    "workbench.colorTheme": "Atom One Dark",
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "snyk.advanced.cliPath": "C:\\Users\\ASUS\\AppData\\Local\\snyk\\vscode-cli\\snyk-win.exe",
+    "snyk.folderConfigs": [
+        {
+            "folderPath": "d:\\projects\\todo-app",
+            "baseBranch": ""
+        }
+    ],
+    "snyk.trustedFolders": [
+        "d:\\work\\ehax\\l3akctf\\Certay_dist",
+        "d:\\projects\\todo-app"
+    ],
+    "snyk.yesWelcomeNotification": false,
+    "files.autoSave": "afterDelay",
+    "python.defaultInterpreterPath": "c:\\msys64\\ucrt64\\bin\\python.exe",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.commandCenter": false,
+    "editor.minimap.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "apc.electron": {
+        "frame": false,
+        "titleBarStyle": "hidden",
+    },
+    "window.titleBarStyle": "custom",
+    "apc.font.family": "JetBrainsMono Nerd Font",
+    "chat.fontFamily": "JetBrainsMono Nerd Font",
+    "apc.monospace.font.family": "JetBrainsMono Nerd Font",
+    "notebook.markup.fontFamily": "JetBrainsMono Nerd Font",
+    "notebook.output.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font",
+    
+    // custom css and js
+    "vscode_custom_css.imports": [
+        
+        "file:///C:/Users/ASUS/.vscode-custom/css/style.css"
+    ],
+    "terminal.integrated.tabs.enabled": false,
+    "workbench.statusBar.visible": false
+}
