@@ -10,7 +10,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/start.png" alt="Windhawk" width="49%"/>
+  <img src="assets/vscode.png" alt="Windhawk" width="49%"/>
   <img src="assets/browser.png" alt="Neovim" width="49%"/>
 </div>
 
